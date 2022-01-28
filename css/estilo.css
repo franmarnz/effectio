@@ -5,9 +5,19 @@
 }
 
 .beneficios{
-    display: flex;
+    display: inline-block;
     font-size: 36px;
     text-align: center;
+}
+.beneficio-ind{
+    color: #001D3D;
+    font-size: 22px;
+    text-align: justify;
+    font-family: 'aileron', sans-serif;
+    font-weight: 400;
+    width: 250px;
+    display: inline-block;
+    margin: 0px 0px 0px 80px;
 }
 
 body{
@@ -40,9 +50,7 @@ body{
 
 .contenedor{
     padding: 30px 0;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -54,6 +62,7 @@ body{
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
+    margin: 0px 100px;
 }
 
 .contenido-textos p{
@@ -68,6 +77,10 @@ header{
     height: 830px;
     color: #fff;
     background: #001D3D;
+}
+
+#halfbanner{
+    width: 50%;
 }
 
 
@@ -87,25 +100,6 @@ header .textos-header{
 }
 
 nav{
-    text-align: right;
-    padding: 21px 100px 21px 0px;
-}
-
-nav > a {
-    color: #fff;
-    text-decoration: none;
-    font-family: 'aileron', sans-serif;
-    font-weight: 400;   
-    font-size: 22px;
-    padding-left: 60px;
-    display: inline-block;
-}
-
-nav > a:hover {
-    color:#F77F00;  
-}
-
-.navcontainer {
     width: 100%;
     background-color: #001D3D;
     height: 70px;
@@ -115,13 +109,22 @@ nav > a:hover {
 }
 
 .sobre-nosostros .contenido-textos{
-    width: 48%;
+    width: 100%;
 }
 
 .textos-header h1{
     font-size: 60px;
     font-family: 'Quicksand', sans-serif;
 }
+
+
+#textoabout{
+    width: 418px;
+    font-size: 22px;
+    font-family: 'aileron', sans-serif;
+
+}
+
 
 .textos-header h2{
     font-size: 22;
@@ -143,4 +146,55 @@ nav > a:hover {
     margin-bottom: 30px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+.tituloEECC{
+    color: #0A2540;
+    font-size: 36px;
+    margin-bottom: 30px;
+    position: right;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    text-align: right;
+    padding: 21px 100px 21px 100px;
+    
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    
+
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'aileron', sans-serif;
+    font-weight: 400;   
+    font-size: 22px;
+    padding-left: 60px;
+    display: inline-block;
+
+}
+
+ul li a:hover {
+    color:#F77F00;  
+}
+
+ul .beneficio {
+    padding: 0px 0px 0px 80px;
+    width: 100%;
+    align-content: center;
+
+}
+ul li .beneficio {
+    list-style: none;
+    height: 90px;
+
+}
+
+.wrapper{
+    margin: 0px 100px;
 }
