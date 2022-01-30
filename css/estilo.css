@@ -89,6 +89,11 @@ header .textos-header{
     text-align: center;
 }
 
+.beneficios-ind{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -97,20 +102,28 @@ header .textos-header{
 .cards .card{
     background: white;
     display: flex;
-    width: 46%;
-    height: 200px;
+    width: 818px;
+    height: 318px;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
 }
 
 .cards .card > .contenido-texto-card{
     padding-left: 5%;
-    width: 60%;
+    width: 50%;
 }
 
 .cards .card h4{
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
+}
+
+.cards .card .img-card{
+    width: 288px;
+    height: 288px;
+    border-radius: 5%;
+    margin-left: 100px;
 }
 
 .contenido-textos p{
@@ -122,4 +135,20 @@ header .textos-header{
 .info{
     background-color: #001D3D;
     color: white;
+}
+
+footer{
+    background: #001D3D;
+    padding: 60px 0  30px 0;
+    margin: auto;
+    overflow: hidden;
+    color: #fff;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
 }
