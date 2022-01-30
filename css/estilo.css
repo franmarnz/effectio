@@ -4,10 +4,36 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-size: 60px;
+    font-family: 'Quicksand';
+}
+
+h2{
+    font-size: 36px;
+    font-family: 'Montserrat';
+}
+
+h3{
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+h4{
+    font: 18px;
+    font-family: 'aileron';
+}
+
+p{
+    font-size: 22px;
+    font-family: 'aileron';
+}
+
 .beneficios{
     display: inline-block;
     font-size: 36px;
     text-align: center;
+    margin-top: 100px;
 }
 .beneficio-ind{
     color: #001D3D;
@@ -27,36 +53,49 @@ body{
 .cards{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
 }
 
 .cards .card{
     background: white;
     display: flex;
-    width: 46%;
-    height: 200px;
+    width: 818px;
+    height: 318px;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
 }
 
 .cards .card > .contenido-texto-card{
     padding-left: 5%;
-    width: 60%;
+    width: 50%;
+    text-align: justify;
 }
 
 .cards .card h4{
-    margin-bottom: 15px; 
+    margin-bottom: 25px; 
+}
+
+.cards .card .img-card{
+    width: 288px;
+    height: 288px;
+    border-radius: 5%;
+    margin-left: 100px;
 }
 
 .contenedor{
     padding: 30px 0;
     width: 100%;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .contenido-textos h3{
     margin-top: 15px;
 }
+
+
 
 /* Main */
 .contenedor-sobre-nosotros{
@@ -65,10 +104,55 @@ body{
     margin: 0px 100px;
 }
 
-.contenido-textos p{
+
+.contenedor-sobre-nosotros .contenido-textos p{
+    margin-top: 50px;
+    width: 50%;
     padding: 0px 0px 30px 0px;
     font-weight: 300;
     text-align: justify;
+}
+
+.fin .contenedor{
+    width: 60%;
+    padding: 10%;
+    text-align: justify;
+}
+
+.fin .fin-boton{
+    margin-top: 30px;
+    margin-left: 20%;
+    border-radius: 50px;
+    width: 324px;
+    height: 40px;
+    background-color: #82D930;
+    color: white;
+    font-size: 22px;
+    font-family: 'aileron';
+}
+
+.fin .contenedor h2{
+    text-align: left;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #001D3D;
+    color: white;
+}
+
+footer .contenedor-footer{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+
+footer .contenedor-footer .img-footer{
+    margin-bottom: 20px;
+    width: 170px;
+    height: 50px;
 }
 
 /* Header */
@@ -95,8 +179,28 @@ header .textos-header{
 }
 
 .info{
+    height: 1235px;
     background-color: #001D3D;
     color: white;
+}
+
+.info h2{
+    color: white;
+    margin-top: 100px;
+}
+
+.info .contenido-textos{
+    padding: 5%;
+    width: 50%;
+}
+.info .contenido-textos h2{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.info .contenido-textos p{
+    width: 100%;
 }
 
 nav{
@@ -106,6 +210,21 @@ nav{
     position: sticky;
     font-family: 'aileron', sans-serif;
     font-weight: 400;
+}
+
+nav .img-menu{
+    align: left;
+}
+
+.portafolio .galeria{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portafolio .contenido-textos{
+    margin-top: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .sobre-nosostros .contenido-textos{
