@@ -5,7 +5,7 @@
 }
 
 h1{
-    font-size: 60px;
+    font-size: 56px;
     font-family: 'Quicksand';
 }
 
@@ -129,6 +129,11 @@ body{
     color: white;
     font-size: 22px;
     font-family: 'aileron';
+    border: none;
+}
+
+.fin .fin-boton:hover{
+    background-color: #F77F00;
 }
 
 .fin .contenedor h2{
@@ -170,7 +175,7 @@ header{
 
 header .textos-header{
     padding: 0px 100px;
-    margin-top: 215px;
+    margin-top: 285px;
     display: flex;
     align-items: left;
     justify-content: center;
@@ -231,19 +236,17 @@ nav .img-menu{
     width: 100%;
 }
 
-.textos-header h1{
-    font-size: 60px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-
 #textoabout{
     width: 418px;
     font-size: 22px;
     font-family: 'aileron', sans-serif;
 
 }
-
+header .textos-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .textos-header h2{
     font-size: 22;
@@ -251,6 +254,15 @@ nav .img-menu{
     font-weight: 400;
     padding-top: 20px;
     width: 80%;
+}
+
+.img-header{
+    float: right;
+    width: 830px;
+    height: 391px;
+    position: absolute;
+    top: 250px;
+    left: 610px;
 }
 
 .textos-cuerpo{
