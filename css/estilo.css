@@ -6,28 +6,28 @@
 
 h1{
     font-size: 56px;
-    font-family: 'Quicksand';
+    font-family: 'Poppins', sans-serif;
     color: #0A2540;
 }
 
 h2{
     font-size: 36px;
-    font-family: 'Montserrat';
+    font-family: 'Poppins', sans-serif;
 }
 
 h3{
     font-size: 24px;
-    font-family: 'Montserrat';
+    font-family: 'Poppins', sans-serif;
 }
 
 h4{
     font: 18px;
-    font-family: 'aileron';
+    font-family: 'Raleway', sans-serif;
 }
 
 p{
     font-size: 22px;
-    font-family: 'aileron';
+    font-family: 'Raleway', sans-serif;
     color: #415466;
 }
 
@@ -63,7 +63,7 @@ hr{
     color: #001D3D;
     font-size: 22px;
     text-align: justify;
-    font-family: 'aileron', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     width: 250px;
     display: inline-block;
@@ -79,6 +79,20 @@ body{
     padding-left: 65%;
     padding-top: 10%;
 }
+
+.btn_solicitademo{
+    margin-top: 50px;
+    margin-left: 0%;
+    border-radius: 10px;
+    width: 240px;
+    height: 50px;
+    background-color: #8CC04B;
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+
 
 .cards{
     display: flex;
@@ -175,6 +189,12 @@ body{
     margin-top: 200px;
 }
 
+.empresa{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 124px;
+}
+
 .fin .contenedor{
     width: 60%;
     padding: 10%;
@@ -190,7 +210,7 @@ body{
     background-color: #82D930;
     color: white;
     font-size: 22px;
-    font-family: 'aileron';
+    font-family: 'Raleway', sans-serif;
     border: none;
 }
 
@@ -245,19 +265,6 @@ header .textos-header{
     text-align: left;
 }
 
-.btn_solicitademo{
-    margin-top: 50px;
-    margin-left: 0%;
-    border-radius: 10px;
-    width: 240px;
-    height: 50px;
-    background-color: #8CC04B;
-    color: white;
-    font-size: 22px;
-    font-family: 'aileron';
-    border: none;
-}
-
 .info{
     height: 1235px;
     background-color: #001D3D;
@@ -294,7 +301,7 @@ nav{
     background-color: #001D3D;
     height: 70px;
     position: sticky;
-    font-family: 'aileron', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
@@ -320,21 +327,13 @@ nav .img-menu{
 #textoabout{
     width: 418px;
     font-size: 22px;
-    font-family: 'aileron', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 header .textos-header{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-}
-
-.textos-header h2{
-    font-size: 22;
-    font-family: 'aileron', sans-serif;
-    font-weight: 400;
-    padding-top: 20px;
-    width: 80%;
 }
 
 .img-header{
@@ -346,9 +345,45 @@ header .textos-header{
     left: 610px;
 }
 
+.imagen {
+    margin-top: 0px;
+}
+
+.pasos{
+
+    background-color: #FFFFFF;
+    height: 1839px;
+
+}
+
+.pasoseccion{
+
+    width: 100%;
+    white-space: nowrap;
+}
+
+.pasosnumerados{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: inline-block;
+    top: 10px;
+}
+
+
+.textos-header h2{
+    font-size: 22;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    width: 80%;
+}
+
+
 .textos-cuerpo{
     font-size: 22;
-    font-family: 'aileron', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
@@ -386,7 +421,7 @@ header .textos-header{
     color: #0A2540;
     font-size: 36px;
     text-align: left;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -397,8 +432,7 @@ header .textos-header{
     margin-bottom: 30px;
     position: right;
     text-align: left;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
 
 .titulos{
@@ -407,41 +441,10 @@ header .textos-header{
 
 ul {
     text-align: right;
-    padding: 21px 100px 21px 100px;
-    
-}
-ul li {
-    list-style: none;
-    display: inline-block;
-    
-
-}
-
-ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-family: 'aileron', sans-serif;
-    font-weight: 400;   
+    padding: 40px 20px;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
-    padding-left: 60px;
-    display: inline-block;
-
-}
-
-ul li a:hover {
-    color:#F77F00;  
-}
-
-ul .beneficio {
-    padding: 0px 0px 0px 80px;
-    width: 100%;
-    align-content: center;
-
-}
-ul li .beneficio {
-    list-style: none;
-    height: 90px;
-
+    
 }
 
 .wrapper{
