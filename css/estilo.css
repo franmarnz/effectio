@@ -283,6 +283,12 @@ header .textos-header{
     width: 100%;
 }
 
+.linea-carac{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 nav{
     width: 100%;
     background-color: #001D3D;
@@ -346,6 +352,36 @@ header .textos-header{
     font-weight: 400;
 }
 
+
+.time-horizontal {
+    list-style-type: none;
+    border-top: 1px solid #707070;
+    max-width: 800px;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+.time-horizontal li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+    padding-top: 10px;
+}
+ 
+.time-horizontal li b:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 47%;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #4c4c4c;
+    border-radius: 8px;
+    background: #4c4c4c;
+}
+
+
 .titulo{
     color: #0A2540;
     font-size: 36px;
@@ -354,6 +390,7 @@ header .textos-header{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .tituloEECC{
     color: #0A2540;
     font-size: 36px;
