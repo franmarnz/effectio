@@ -6,27 +6,51 @@
 
 h1{
     font-size: 56px;
-    font-family: 'Quicksand';
+    font-family: 'Poppins', sans-serif;
+    color: #0A2540;
 }
 
 h2{
     font-size: 36px;
-    font-family: 'Montserrat';
+    font-family: 'Poppins', sans-serif;
 }
 
 h3{
     font-size: 24px;
-    font-family: 'Montserrat';
+    font-family: 'Poppins', sans-serif;
 }
 
 h4{
     font: 18px;
-    font-family: 'aileron';
+    font-family: 'Raleway', sans-serif;
 }
 
 p{
     font-size: 22px;
-    font-family: 'aileron';
+    font-family: 'Raleway', sans-serif;
+    color: #415466;
+}
+
+hr{
+    height: 5px;
+    width: 201px;
+    background-color: #366A9E;
+}
+
+.acentoazul{
+    color: #005993;
+}
+
+.acentonaranja{
+    color: #F77F00;
+}
+
+.acentoverde{
+    color: #87B336;
+}
+
+.acentorojo{
+    color: #FF0153;
 }
 
 .beneficios{
@@ -39,7 +63,7 @@ p{
     color: #001D3D;
     font-size: 22px;
     text-align: justify;
-    font-family: 'aileron', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     width: 250px;
     display: inline-block;
@@ -49,6 +73,26 @@ p{
 body{
     background-color: #F5F5F7;
 }
+
+.boton{
+    position: absolute;
+    padding-left: 65%;
+    padding-top: 10%;
+}
+
+.btn_solicitademo{
+    margin-top: 50px;
+    margin-left: 0%;
+    border-radius: 10px;
+    width: 240px;
+    height: 50px;
+    background-color: #8CC04B;
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+
 
 .cards{
     display: flex;
@@ -84,11 +128,38 @@ body{
     margin-left: 100px;
 }
 
+.cards-landing{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding: 5%;
+}
+
+.cards-landing .card-landing{
+    background: white;
+    display: flex;
+    width: 290px;
+    height: 210px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.cards-landing .card-landing > .texto-card-landing{
+    padding-left: 10%;
+    width: 90%;
+    text-align: left;
+}
+
 .contenedor{
     padding: 30px 0;
     width: 100%;
     overflow: hidden;
     margin-top: 100px;
+}
+
+.contenedors{
+    display: flex;
 }
 
 .contenido-textos h3{
@@ -98,6 +169,7 @@ body{
 
 
 /* Main */
+
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
@@ -111,6 +183,16 @@ body{
     padding: 0px 0px 30px 0px;
     font-weight: 300;
     text-align: justify;
+}
+
+.cumplirregulacion{
+    margin-top: 200px;
+}
+
+.empresa{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 124px;
 }
 
 .fin .contenedor{
@@ -128,7 +210,7 @@ body{
     background-color: #82D930;
     color: white;
     font-size: 22px;
-    font-family: 'aileron';
+    font-family: 'Raleway', sans-serif;
     border: none;
 }
 
@@ -163,7 +245,7 @@ footer .contenedor-footer .img-footer{
 /* Header */
 header{
     width: 100%;
-    height: 830px;
+    height: 450px;
     color: #0A2540;
     background: #F5F5F7;
 }
@@ -208,12 +290,18 @@ header .textos-header{
     width: 100%;
 }
 
+.linea-carac{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 nav{
     width: 100%;
     background-color: #001D3D;
     height: 70px;
     position: sticky;
-    font-family: 'aileron', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
@@ -239,21 +327,13 @@ nav .img-menu{
 #textoabout{
     width: 418px;
     font-size: 22px;
-    font-family: 'aileron', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 header .textos-header{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-}
-
-.textos-header h2{
-    font-size: 22;
-    font-family: 'aileron', sans-serif;
-    font-weight: 400;
-    padding-top: 20px;
-    width: 80%;
 }
 
 .img-header{
@@ -265,65 +345,106 @@ header .textos-header{
     left: 610px;
 }
 
+.imagen {
+    margin-top: 0px;
+}
+
+.pasos{
+
+    background-color: #FFFFFF;
+    height: 1839px;
+
+}
+
+.pasoseccion{
+
+    width: 100%;
+    white-space: nowrap;
+}
+
+.pasosnumerados{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: inline-block;
+    top: 10px;
+}
+
+
+.textos-header h2{
+    font-size: 22;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    width: 80%;
+}
+
+
 .textos-cuerpo{
     font-size: 22;
-    font-family: 'aileron', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
+
+
+.time-horizontal {
+    list-style-type: none;
+    border-top: 1px solid #707070;
+    max-width: 800px;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+.time-horizontal li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+    padding-top: 10px;
+}
+ 
+.time-horizontal li b:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 47%;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #4c4c4c;
+    border-radius: 8px;
+    background: #4c4c4c;
+}
+
 
 .titulo{
     color: #0A2540;
     font-size: 36px;
-    margin-bottom: 30px;
     text-align: left;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 .tituloEECC{
     color: #0A2540;
     font-size: 36px;
     margin-bottom: 30px;
     position: right;
     text-align: left;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulos{
+    padding: 6.5%;
 }
 
 ul {
     text-align: right;
-    padding: 21px 100px 21px 100px;
-    
-}
-ul li {
-    list-style: none;
-    display: inline-block;
-    
-
-}
-
-ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-family: 'aileron', sans-serif;
-    font-weight: 400;   
+    padding: 40px 20px;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
-    padding-left: 60px;
-    display: inline-block;
-
-}
-
-ul li a:hover {
-    color:#F77F00;  
-}
-
-ul .beneficio {
-    padding: 0px 0px 0px 80px;
-    width: 100%;
-    align-content: center;
-
-}
-ul li .beneficio {
-    list-style: none;
-    height: 90px;
-
+    
 }
 
 .wrapper{
