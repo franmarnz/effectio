@@ -77,7 +77,7 @@ body{
 .boton{
     position: absolute;
     padding-left: 65%;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .btn_solicitademo{
@@ -91,6 +91,9 @@ body{
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
     border: none;
+    text-align: center;
+    padding-top: 12px;
+    text-decoration: none;
 }
 
 
