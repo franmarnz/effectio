@@ -292,7 +292,7 @@
     
     header .textos-header{
         padding: 0px 100px;
-        margin-top: 185px;
+        margin-top: 48px;
         display: flex;
         align-items: left;
         justify-content: center;
@@ -329,6 +329,12 @@
         margin-bottom: 28px;
     }
 
+    .img-logomain{
+        width: 120px;
+        height: 46.9px;
+        margin-bottom: 102px;
+    }
+
     .imgmobile{
         display: none;
     }
@@ -348,6 +354,12 @@
     .linea-caraclista{
         display: flex;
         justify-content: space-evenly;
+    }
+    .maintitle{
+        margin-bottom: 20px;
+    }
+    .mainfrase{
+        margin-bottom: 20px;
     }
     
     nav{
@@ -398,7 +410,9 @@
     .imagen {
         margin-top: 0px;
     }
-    
+    .logomain{
+        width: 15%;
+    }
     
     .pasos{
         margin-top: 100px;
@@ -510,6 +524,11 @@
         font-family: 'Poppins', sans-serif;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .titulocumplir{
+        padding: 0% 5%;
+        width: 100%;
     }
     
     .tituloEECC{
@@ -764,6 +783,12 @@
         justify-content: center;
     }
     
+    .img-logomain{
+        margin-bottom: 20px;
+        width: 78px;
+        height: 24.8px;
+    }
+    
     footer .contenedor-footer .img-footer{
         margin-bottom: 20px;
         width: 78px;
@@ -788,7 +813,7 @@
     
     header .textos-header{
         padding: 0% 5%;
-        margin-top: 90px;
+        margin-top: 30px;
         display: flex;
         align-items: left;
         justify-content: center;
@@ -823,6 +848,16 @@
     
     .icons{
         margin-bottom: 10px;
+    }
+
+    .img-logomain{
+        width: 78px;
+        height: 28px;
+        margin-bottom: 30px;
+    }
+
+    .logomain{
+        width: 100%;
     }
 
     .linea-carac{
@@ -955,6 +990,9 @@
         font-family: 'Poppins', sans-serif;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .titulocumplir{
+        width: 100%;
     }
     
     .tituloEECC{
