@@ -167,7 +167,6 @@
         display: flex;
         width: 100%;
         height: 350px;
-        white-space: nowrap;
     }
     
     .contenido-textos h3{
@@ -317,6 +316,10 @@
         margin-bottom: 28px;
     }
 
+    .imgmobile{
+        display: none;
+    }
+
     .lista{
         display: none;
     }
@@ -341,10 +344,6 @@
         position: sticky;
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
-    }
-    
-    nav .img-menu{
-        align: left;
     }
     
     .portafolio .galeria{
@@ -387,9 +386,6 @@
         margin-top: 0px;
     }
     
-    .imagentecnico {
-        margin-top: 0px;
-    }
     
     .pasos{
         margin-top: 100px;
@@ -413,7 +409,7 @@
     
     .pasosnumerados{
         width: 50%;
-        margin: 0px;
+        margin: 0%;
         padding: 0px;
         border: 0px;
         display: inline-block;
@@ -513,7 +509,7 @@
     }
     
     .titulos{
-        padding: 0% 6.5%;
+        padding: 0% 5%;
     }
     
     ul {
@@ -549,7 +545,7 @@
     }
     
     h3{
-        font-size: 24px;
+        font-size: 22px;
         font-family: 'Poppins', sans-serif;
         color:#0A2540;
     }
@@ -557,6 +553,12 @@
     h4{
         font: 18px;
         font-family: 'Raleway', sans-serif;
+    }
+
+    .footer-texto p{
+        font: 18px;
+        font-family: 'Raleway', sans-serif;
+        color: #F5F5F7;
     }
     
     p{
@@ -567,7 +569,7 @@
     
     hr{
         height: 5px;
-        width: 201px;
+        width: 100%;
         background-color: #366A9E;
     }
     
@@ -593,57 +595,29 @@
         text-align: center;
         margin-top: 100px;
     }
-    .beneficio-ind{
-        color: #001D3D;
-        font-size: 16px;
-        text-align: justify;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 400;
-        width: 250px;
-        display: inline-block;
-        margin: 0px 0px 0px 80px;
-    }
     
     body{
         background-color: #F5F5F7;
     }
     
-    .boton{
-        display: flex;
-        width: 100%;
-        white-space: nowrap;
-    }
-    
     .btn_solicitademo{
-        margin-top: 50px;
-        margin-left: 0%;
+        margin-top: 30px;
         border-radius: 10px;
-        width: 240px;
+        width: 200px;
         height: 50px;
         background-color: #8CC04B;
         color: white;
-        font-size: 22px;
+        font-size: 18px;
         font-family: 'Raleway', sans-serif;
         border: none;
         text-align: center;
-        padding-top: 12px;
+        padding-top: 14px;
         text-decoration: none;
     }
     
     
     .cards{
         margin-top: 100px;
-    }
-    
-    .cards .card{
-        background: white;
-        display: flex;
-        width: 818px;
-        height: 318px;
-        align-items: center;
-        border-radius: 10px;
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-        margin-top: 20px;
     }
     
     .cards .card > .contenido-texto-card{
@@ -661,7 +635,6 @@
     
     .cards-landing{
         display: block;
-        padding: 0% 5%;
     }
     
     .cards-landing .card-landing{
@@ -693,7 +666,8 @@
         display: flex;
         width: 100%;
         height: 350px;
-        white-space: nowrap;
+        padding: 0% 5%;
+        display: block;
     }
     
     .contenido-textos h3{
@@ -720,19 +694,13 @@
     }
     
     .cumplirregulacion{
-        margin-top: 150px;
-    }
-    
-    .empresa{
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 124px;
-        margin-top: 66px;
+        margin-top: 60px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
     .fin .contenedor{
-        width: 60%;
-        padding: 10%;
+        width: 100%;
         text-align: justify;
     }
     
@@ -761,31 +729,31 @@
     
     footer{
         width: 100%;
-        height: 350px;
+        height: 200px;
         background-color: #111827;
         color: white;
-        display: flex;
-        justify-content: space-evenly;
+        display: block;
+        margin: 0%;
     }
     
     footer .contenedor-footer{
-        width: 50%;
-        padding-top: 10%;
-        padding-left: 0.2%;
-        display: flex;
-        justify-content: space-evenly;
+        width: 100%;
+        padding-top:8%;
+        padding-bottom: 8%;
+        padding-left: 5%;
+        display: block;
     }
     
     footer .contenedor-footer2{
-        width: 50%;
-        padding-left: 37%;
+        width: 100%;
         display: flex;
+        justify-content: center;
     }
     
     footer .contenedor-footer .img-footer{
         margin-bottom: 20px;
-        width: 157px;
-        height: 50px;
+        width: 78px;
+        height: 24.8px;
     }
     
     /* Header */
@@ -805,7 +773,7 @@
     }
     
     header .textos-header{
-        padding: 0px 20px;
+        padding: 0% 5%;
         margin-top: 90px;
         display: flex;
         align-items: left;
@@ -858,6 +826,12 @@
         font-size: 22px;
         padding-bottom: 25px;
     }
+    .maintitle{
+        margin-bottom: 20px;
+    }
+    .mainfrase{
+        margin-bottom: 20px;
+    }
     
     nav{
         width: 100%;
@@ -866,10 +840,6 @@
         position: sticky;
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
-    }
-    
-    nav .img-menu{
-        align: left;
     }
     
     .portafolio .galeria{
@@ -887,79 +857,66 @@
         width: 100%;
     }
     
-    #textoabout{
-        width: 418px;
-        font-size: 22px;
-        font-family: 'Raleway', sans-serif;
-    
-    }
     header .textos-header{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
     }
     
-    .img-header{
-        float: right;
-        width: 830px;
-        height: 391px;
-        position: absolute;
-        top: 250px;
-        left: 610px;
-    }
     
     .imagen {
-        margin-top: 0px;
-    }
-    
-    .imagentecnico {
-        margin-top: 0px;
+        margin-top: 30px;
     }
     
     .pasos{
-        margin-top: 100px;
+        margin-top: 60px;
         background-color: #FFFFFF;
         height: 100%;
+        width: 100%;
+        margin-bottom: 40px;
     
     }
     
     .pasoseccion{
         display: flex;
         width: 100%;
-        white-space: nowrap;
         display: block;
     }
     .pasoseccion2{
         display: flex;
         width: 100%;
         margin-top: 5%;
-        white-space: nowrap;
     }
     
     .pasosnumerados{
         width: 100%;
-    
+        display: none;
     }
     
     .pasosnumerados-1{
         width: 100%;
+        margin: 0% 5%;
         padding-top: 10%;
         text-align: left;
     }
     
     .pasosnumerados-2{
         width: 100%;
-        padding-top: 4%;
+        margin: 0% 5%;
         text-align: left;
     }
     
     .pasosnumerados-3{
         width: 100%;
-        margin: 0px;
+        margin: 0% 5%;
         padding-top: 0%;
-        padding-left: 3%;
-        border: 0px;
         text-align: left;
+    }
+    .botoncta{
+        display: flex;
+        width: 100%;
+        margin-top: 3%;
+        justify-content: center;
     }
     
     .textos-header h2{
@@ -982,7 +939,7 @@
         text-align: left;
         font-family: 'Poppins', sans-serif;
         margin-top: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     
     .tituloEECC{
@@ -994,11 +951,10 @@
     }
     
     .titulos{
-        padding: 0% 3%;
+        padding: 0% 0%;
     }
     
     ul {
-        padding: 40px 20px;
         font-family: 'Raleway', sans-serif;
         font-size: 16px;
         color: #415466;
@@ -1006,6 +962,7 @@
     
     .interlineadoli{
         margin-bottom: 10px;
+        width: 100%;
     }
     
     .wrapper{
