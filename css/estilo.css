@@ -4,449 +4,969 @@
     box-sizing: border-box;
 }
 
-h1{
-    font-size: 56px;
-    font-family: 'Poppins', sans-serif;
-    color: #0A2540;
-}
-
-h2{
-    font-size: 36px;
-    font-family: 'Poppins', sans-serif;
-}
-
-h3{
-    font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-}
-
-h4{
-    font: 18px;
-    font-family: 'Raleway', sans-serif;
-}
-
-p{
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-    color: #415466;
-}
-
-hr{
-    height: 5px;
-    width: 201px;
-    background-color: #366A9E;
-}
-
-.acentoazul{
-    color: #005993;
-}
-
-.acentonaranja{
-    color: #F77F00;
-}
-
-.acentoverde{
-    color: #87B336;
-}
-
-.acentorojo{
-    color: #FF0153;
-}
-
-.beneficios{
-    display: inline-block;
-    font-size: 36px;
-    text-align: center;
-    margin-top: 100px;
-}
-.beneficio-ind{
-    color: #001D3D;
-    font-size: 22px;
-    text-align: justify;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    width: 250px;
-    display: inline-block;
-    margin: 0px 0px 0px 80px;
-}
-
-body{
-    background-color: #F5F5F7;
-}
-
-.boton{
-    position: absolute;
-    padding-left: 65%;
-    padding-top: 10%;
-}
-
-.btn_solicitademo{
-    margin-top: 50px;
-    margin-left: 0%;
-    border-radius: 10px;
-    width: 240px;
-    height: 50px;
-    background-color: #8CC04B;
-    color: white;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-    border: none;
-}
-
-
-.cards{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
-}
-
-.cards .card{
-    background: white;
-    display: flex;
-    width: 818px;
-    height: 318px;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-    margin-top: 20px;
-}
-
-.cards .card > .contenido-texto-card{
-    padding-left: 5%;
-    width: 50%;
-    text-align: justify;
-}
-
-.cards .card h4{
-    margin-bottom: 25px; 
-}
-
-.cards .card .img-card{
-    width: 288px;
-    height: 288px;
-    border-radius: 5%;
-    margin-left: 100px;
-}
-
-.cards-landing{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    padding: 5%;
-}
-
-.cards-landing .card-landing{
-    background: white;
-    display: flex;
-    width: 290px;
-    height: 210px;
-    align-items: center;
-    border-radius: 10px;
-    margin-top: 100px;
-}
-
-.cards-landing .card-landing > .texto-card-landing{
-    padding-left: 10%;
-    width: 90%;
-    text-align: left;
-}
-
-.contenedor{
-    padding: 30px 0;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 100px;
-}
-
-.contenedors{
-    display: flex;
-}
-
-.contenido-textos h3{
-    margin-top: 15px;
-}
-
-
-
-/* Main */
-
-.contenedor-sobre-nosotros{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0px 100px;
-}
-
-
-.contenedor-sobre-nosotros .contenido-textos p{
-    margin-top: 50px;
-    width: 50%;
-    padding: 0px 0px 30px 0px;
-    font-weight: 300;
-    text-align: justify;
-}
-
-.cumplirregulacion{
-    margin-top: 200px;
-}
-
-.empresa{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 124px;
-}
-
-.fin .contenedor{
-    width: 60%;
-    padding: 10%;
-    text-align: justify;
-}
-
-.fin .fin-boton{
-    margin-top: 30px;
-    margin-left: 20%;
-    border-radius: 50px;
-    width: 324px;
-    height: 40px;
-    background-color: #82D930;
-    color: white;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-    border: none;
-}
-
-.fin .fin-boton:hover{
-    background-color: #F77F00;
-}
-
-.fin .contenedor h2{
-    text-align: left;
-}
-
-/* Footer */
-
-footer{
-    width: 100%;
-    height: 350px;
-    background-color: #001D3D;
-    color: white;
-}
-
-footer .contenedor-footer{
-    padding-top: 8%;
-    padding-left: 10%;
-}
-
-footer .contenedor-footer .img-footer{
-    margin-bottom: 20px;
-    width: 170px;
-    height: 50px;
-}
-
-/* Header */
-header{
-    width: 100%;
-    height: 450px;
-    color: #0A2540;
-    background: #F5F5F7;
-}
-
-#halfbanner{
-    width: 50%;
-}
-
-
-header .textos-header{
-    padding: 0px 100px;
-    margin-top: 285px;
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-}
-
-.info{
-    height: 1235px;
-    background-color: #001D3D;
-    color: white;
-}
-
-.info h2{
-    color: white;
-    margin-top: 100px;
-}
-
-.info .contenido-textos{
-    padding: 5%;
-    width: 50%;
-}
-.info .contenido-textos h2{
-    width: 100%;
-    margin-bottom: 20px;
-    margin-top: 100px;
-}
-
-.info .contenido-textos p{
-    width: 100%;
-}
-
-.linea-carac{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav{
-    width: 100%;
-    background-color: #001D3D;
-    height: 70px;
-    position: sticky;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-}
-
-nav .img-menu{
-    align: left;
-}
-
-.portafolio .galeria{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.portafolio .contenido-textos{
-    margin-top: 100px;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.sobre-nosostros .contenido-textos{
-    width: 100%;
-}
-
-#textoabout{
-    width: 418px;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-
-}
-header .textos-header{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.img-header{
-    float: right;
-    width: 830px;
-    height: 391px;
-    position: absolute;
-    top: 250px;
-    left: 610px;
-}
-
-.imagen {
-    margin-top: 0px;
-}
-
-.pasos{
-
-    background-color: #FFFFFF;
-    height: 1839px;
-
-}
-
-.pasoseccion{
-
-    width: 100%;
-    white-space: nowrap;
-}
-
-.pasosnumerados{
-    width: 50%;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    display: inline-block;
-    top: 10px;
-}
-
-
-.textos-header h2{
-    font-size: 22;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    padding-top: 20px;
-    width: 80%;
-}
-
-
-.textos-cuerpo{
-    font-size: 22;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-}
-
-
-.time-horizontal {
-    list-style-type: none;
-    border-top: 1px solid #707070;
-    max-width: 800px;
-    padding: 0px;
-    margin: 0px;
-}
- 
-.time-horizontal li {
-    float: left;
-    position: relative;
-    text-align: center;
-    width: 25%;
-    padding-top: 10px;
-}
- 
-.time-horizontal li b:before {
-    content: '';
-    position: absolute;
-    top: -10px;
-    left: 47%;
-    width: 12px;
-    height: 12px;
-    border: 2px solid #4c4c4c;
-    border-radius: 8px;
-    background: #4c4c4c;
-}
-
-
-.titulo{
-    color: #0A2540;
-    font-size: 36px;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.tituloEECC{
-    color: #0A2540;
-    font-size: 36px;
-    margin-bottom: 30px;
-    position: right;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-}
-
-.titulos{
-    padding: 6.5%;
-}
-
-ul {
-    text-align: right;
-    padding: 40px 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
+@media screen and (min-width: 960px){
+
+    h1{
+        font-size: 56px;
+        font-family: 'Poppins', sans-serif;
+        color: #0A2540;
+    }
     
+    h2{
+        font-size: 36px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    h3{
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        color:#0A2540;
+    }
+    
+    h4{
+        font: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    p{
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+        color: #415466;
+    }
+    
+    hr{
+        height: 5px;
+        width: 201px;
+        background-color: #366A9E;
+    }
+    
+    .acentoazul{
+        color: #005993;
+    }
+    
+    .acentonaranja{
+        color: #F77F00;
+    }
+    
+    .acentoverde{
+        color: #87B336;
+    }
+    
+    .acentorojo{
+        color: #FF0153;
+    }
+    
+    .beneficios{
+        display: inline-block;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .beneficio-ind{
+        color: #001D3D;
+        font-size: 22px;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        width: 250px;
+        display: inline-block;
+        margin: 0px 0px 0px 80px;
+    }
+    
+    body{
+        background-color: #F5F5F7;
+    }
+    
+    .boton{
+        display: flex;
+        width: 100%;
+        white-space: nowrap;
+    }
+    
+    .btn_solicitademo{
+        margin-top: 50px;
+        margin-left: 0%;
+        border-radius: 10px;
+        width: 240px;
+        height: 50px;
+        background-color: #8CC04B;
+        color: white;
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+        border: none;
+        text-align: center;
+        padding-top: 12px;
+        text-decoration: none;
+    }
+    
+    
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+    
+    .cards .card{
+        background: white;
+        display: flex;
+        width: 818px;
+        height: 318px;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        margin-top: 20px;
+    }
+    
+    .cards .card > .contenido-texto-card{
+        padding-left: 5%;
+        width: 50%;
+        text-align: justify;
+    }
+    
+    .cards .card h4{
+        margin-bottom: 25px; 
+    }
+    
+    .cards .card .img-card{
+        width: 288px;
+        height: 288px;
+        border-radius: 5%;
+        margin-left: 100px;
+    }
+    
+    .cards-landing{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0% 5%;
+    }
+    
+    .cards-landing .card-landing{
+        background: white;
+        display: flex;
+        width: 290px;
+        height: 210px;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 70px;
+    }
+    
+    .cards-landing .card-landing > .texto-card-landing{
+        padding-left: 10%;
+        width: 90%;
+        text-align: left;
+    }
+    
+    .contenedor{
+        padding: 30px 0;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 100px;
+    }
+    
+    .contenedors{
+        display: flex;
+        width: 100%;
+        height: 350px;
+    }
+    
+    .contenido-textos h3{
+        margin-top: 15px;
+    }
+    
+    
+    
+    /* Main */
+    
+    .contenedor-sobre-nosotros{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px 100px;
+    }
+    
+    
+    .contenedor-sobre-nosotros .contenido-textos p{
+        margin-top: 50px;
+        width: 50%;
+        padding: 0px 0px 30px 0px;
+        font-weight: 300;
+        text-align: justify;
+    }
+    
+    .cumplirregulacion{
+        margin-top: 150px;
+    }
+    
+    .empresa{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 124px;
+        margin-top: 66px;
+    }
+    
+    .fin .contenedor{
+        width: 60%;
+        padding: 10%;
+        text-align: justify;
+    }
+    
+    .fin .fin-boton{
+        margin-top: 30px;
+        margin-left: 20%;
+        border-radius: 50px;
+        width: 324px;
+        height: 40px;
+        background-color: #82D930;
+        color: white;
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+        border: none;
+    }
+    
+    .fin .fin-boton:hover{
+        background-color: #F77F00;
+    }
+    
+    .fin .contenedor h2{
+        text-align: left;
+    }
+    
+    /* Footer */
+    
+    footer{
+        width: 100%;
+        height: 350px;
+        background-color: #111827;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    footer .contenedor-footer{
+        width: 50%;
+        padding-top: 10%;
+        padding-left: 0.2%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    footer .contenedor-footer2{
+        width: 50%;
+        padding-left: 37%;
+        display: flex;
+    }
+    
+    footer .contenedor-footer .img-footer{
+        margin-bottom: 20px;
+        width: 157px;
+        height: 50px;
+    }
+    
+    /* Header */
+    header{
+        width: 100%;
+        color: #0A2540;
+        background: #F5F5F7;
+    }
+    
+    #halfbanner{
+        width: 50%;
+    }
+    
+    header .img-header{
+        width: 100%;
+        height: 100%;
+    }
+    
+    header .textos-header{
+        padding: 0px 100px;
+        margin-top: 185px;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .info{
+        height: 1235px;
+        background-color: #001D3D;
+        color: white;
+    }
+    
+    .info h2{
+        color: white;
+        margin-top: 100px;
+    }
+    
+    .info .contenido-textos{
+        padding: 5%;
+        width: 50%;
+    }
+    .info .contenido-textos h2{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+    
+    .info .contenido-textos p{
+        width: 100%;
+    }
+    
+    .icons{
+        margin-bottom: 28px;
+    }
+
+    .imgmobile{
+        display: none;
+    }
+
+    .lista{
+        display: none;
+    }
+    .atributos{
+        display: none;
+    }
+    
+    .linea-carac{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .linea-caraclista{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    nav{
+        width: 100%;
+        background-color: #001D3D;
+        height: 70px;
+        position: sticky;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    
+    .portafolio .galeria{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .portafolio .contenido-textos{
+        margin-top: 100px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    .sobre-nosostros .contenido-textos{
+        width: 100%;
+    }
+    
+    #textoabout{
+        width: 418px;
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    header .textos-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .img-header{
+        float: right;
+        width: 830px;
+        height: 391px;
+        position: absolute;
+        top: 250px;
+        left: 610px;
+    }
+    
+    .imagen {
+        margin-top: 0px;
+    }
+    
+    
+    .pasos{
+        margin-top: 100px;
+        background-color: #FFFFFF;
+        height: 100%;
+        margin-bottom: 100px;
+    
+    }
+    
+    .pasoseccion{
+        display: flex;
+        width: 100%;
+        white-space: nowrap;
+    }
+    .pasoseccion2{
+        display: flex;
+        width: 100%;
+        margin-top: 5%;;
+        white-space: nowrap;
+    }
+    
+    .pasosnumerados{
+        width: 50%;
+        margin: 0%;
+        padding: 0px;
+        border: 0px;
+        display: inline-block;
+    
+    }
+    
+    .pasosnumerados-1{
+        width: 50%;
+        margin: 0px;
+        padding-top: 10%;
+        padding-left: 8%;
+        border: 0px;
+        text-align: left;
+    }
+    
+    .pasosnumerados-2{
+        width: 50%;
+        margin: 0px;
+        padding-top: 4%;
+        padding-left: 8%;
+        border: 0px;
+        text-align: left;
+    }
+    
+    .pasosnumerados-3{
+        width: 50%;
+        margin: 0px;
+        padding-top: 0%;
+        padding-left: 8%;
+        border: 0px;
+        text-align: left;
+    }
+    
+    .textos-header h2{
+        font-size: 22;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        width: 80%;
+    }
+    
+    
+    .textos-cuerpo{
+        font-size: 22;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    
+    ul.time-horizontal{
+        list-style-image: url("img/VectorLista.png");
+    }
+    
+    .time-horizontal {
+        list-style-type: none;
+        border-top: 1px solid #707070;
+        max-width: 1000px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .time-horizontal li {
+        float: left;
+        position: relative;
+        text-align: center;
+        width: 25%;
+        padding-top: 44px;  
+    }
+     
+    .time-horizontal li b:before {
+        content: '';
+        position: absolute;
+        top: -15px;
+        left: 43%;
+        width: 32px;
+        height: 32px;
+        border: none;
+        border-radius: 100%;
+        background-color: #366A9E;
+    }
+    
+    
+    .titulo{
+        color: #0A2540;
+        font-size: 36px;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .tituloEECC{
+        color: #0A2540;
+        font-size: 36px;
+        margin-bottom: 30px;
+        position: right;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .titulos{
+        padding: 0% 5%;
+    }
+    
+    ul {
+        padding: 40px 20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        color: #415466;
+    }
+    
+    .interlineadoli{
+        margin-bottom: 15px;
+    }
+    
+    .wrapper{
+        margin: 0px 100px;
+    }
+
 }
 
-.wrapper{
-    margin: 0px 100px;
+
+
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        color: #0A2540;
+    }
+    
+    h2{
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    h3{
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        color:#0A2540;
+    }
+    
+    h4{
+        font: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .footer-texto p{
+        font: 18px;
+        font-family: 'Raleway', sans-serif;
+        color: #F5F5F7;
+    }
+    
+    p{
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        color: #415466;
+    }
+    
+    hr{
+        height: 5px;
+        width: 100%;
+        background-color: #366A9E;
+    }
+    
+    .acentoazul{
+        color: #005993;
+    }
+    
+    .acentonaranja{
+        color: #F77F00;
+    }
+    
+    .acentoverde{
+        color: #87B336;
+    }
+    
+    .acentorojo{
+        color: #FF0153;
+    }
+    
+    .beneficios{
+        display: inline-block;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    body{
+        background-color: #F5F5F7;
+    }
+    
+    .btn_solicitademo{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        background-color: #8CC04B;
+        color: white;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        border: none;
+        text-align: center;
+        padding-top: 14px;
+        text-decoration: none;
+    }
+    
+    
+    .cards{
+        margin-top: 100px;
+    }
+    
+    .cards .card > .contenido-texto-card{
+        padding-left: 5%;
+        width: 50%;
+        text-align: justify;
+    }
+    
+    .cards .card .img-card{
+        width: 288px;
+        height: 288px;
+        border-radius: 5%;
+        margin-left: 100px;
+    }
+    
+    .cards-landing{
+        display: block;
+    }
+    
+    .cards-landing .card-landing{
+        background: white;
+        display: flex;
+        width: 350px;
+        height: 120px;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    
+    .cards-landing .card-landing > .texto-card-landing{
+
+        position: relative;
+        padding-left: 20px;
+        width: 80%;
+        text-align: left;
+    }
+    
+    .contenedor{
+        padding: 30px 0;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 100px;
+    }
+    
+    .contenedors{
+        display: flex;
+        width: 100%;
+        height: 350px;
+        padding: 0% 5%;
+        display: block;
+    }
+    
+    .contenido-textos h3{
+        margin-top: 15px;
+    }
+    
+    
+    
+    /* Main */
+    
+    .contenedor-sobre-nosotros{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px 100px;
+    }
+    
+    
+    .contenedor-sobre-nosotros .contenido-textos p{
+        margin-top: 50px;
+        width: 50%;
+        padding: 0px 0px 30px 0px;
+        font-weight: 300;
+        text-align: justify;
+    }
+    
+    .cumplirregulacion{
+        margin-top: 60px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .fin .contenedor{
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .fin .fin-boton{
+        margin-top: 30px;
+        margin-left: 20%;
+        border-radius: 50px;
+        width: 324px;
+        height: 40px;
+        background-color: #82D930;
+        color: white;
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+        border: none;
+    }
+    
+    .fin .fin-boton:hover{
+        background-color: #F77F00;
+    }
+    
+    .fin .contenedor h2{
+        text-align: left;
+    }
+    
+    /* Footer */
+    
+    footer{
+        width: 100%;
+        height: 200px;
+        background-color: #111827;
+        color: white;
+        display: block;
+        margin: 0%;
+    }
+    
+    footer .contenedor-footer{
+        width: 100%;
+        padding-top:8%;
+        padding-bottom: 8%;
+        padding-left: 5%;
+        display: block;
+    }
+    
+    footer .contenedor-footer2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer .contenedor-footer .img-footer{
+        margin-bottom: 20px;
+        width: 78px;
+        height: 24.8px;
+    }
+    
+    /* Header */
+    header{
+        width: 100%;
+        color: #0A2540;
+        background: #F5F5F7;
+    }
+    
+    #halfbanner{
+        width: 50%;
+    }
+    
+    header .img-header{
+        width: 100%;
+        height: 100%;
+    }
+    
+    header .textos-header{
+        padding: 0% 5%;
+        margin-top: 90px;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .info{
+        height: 1235px;
+        background-color: #001D3D;
+        color: white;
+    }
+    
+    .info h2{
+        color: white;
+        margin-top: 100px;
+    }
+    
+    .info .contenido-textos{
+        padding: 5%;
+        width: 50%;
+    }
+    .info .contenido-textos h2{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+    
+    .info .contenido-textos p{
+        width: 100%;
+    }
+    
+    .icons{
+        margin-bottom: 10px;
+    }
+
+    .linea-carac{
+        margin-top: 100px;
+        display: none;
+
+    }
+
+    .atributos{
+        list-style-type: none;
+        font-size: 22px;
+    }
+    .atributos li{
+        list-style-type: none;
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+    .maintitle{
+        margin-bottom: 20px;
+    }
+    .mainfrase{
+        margin-bottom: 20px;
+    }
+    
+    nav{
+        width: 100%;
+        background-color: #001D3D;
+        height: 70px;
+        position: sticky;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    
+    .portafolio .galeria{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .portafolio .contenido-textos{
+        margin-top: 100px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    .sobre-nosostros .contenido-textos{
+        width: 100%;
+    }
+    
+    header .textos-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .imagen {
+        margin-top: 30px;
+    }
+    
+    .pasos{
+        margin-top: 60px;
+        background-color: #FFFFFF;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 40px;
+    
+    }
+    
+    .pasoseccion{
+        display: flex;
+        width: 100%;
+        display: block;
+    }
+    .pasoseccion2{
+        display: flex;
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .pasosnumerados{
+        width: 100%;
+        display: none;
+    }
+    
+    .pasosnumerados-1{
+        width: 100%;
+        margin: 0% 5%;
+        padding-top: 10%;
+        text-align: left;
+    }
+    
+    .pasosnumerados-2{
+        width: 100%;
+        margin: 0% 5%;
+        text-align: left;
+    }
+    
+    .pasosnumerados-3{
+        width: 100%;
+        margin: 0% 5%;
+        padding-top: 0%;
+        text-align: left;
+    }
+    .botoncta{
+        display: flex;
+        width: 100%;
+        margin-top: 3%;
+        justify-content: center;
+    }
+    
+    .textos-header h2{
+        font-size: 22;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        width: 80%;
+    }
+    
+    
+    .textos-cuerpo{
+        font-size: 16;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    
+    .titulo{
+        color: #0A2540;
+        font-size: 24px;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .tituloEECC{
+        color: #0A2540;
+        font-size: 36px;
+        position: right;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .titulos{
+        padding: 0% 0%;
+    }
+    
+    ul {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        color: #415466;
+    }
+    
+    .interlineadoli{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .wrapper{
+        margin: 0px 100px;
+    }
+    
 }
