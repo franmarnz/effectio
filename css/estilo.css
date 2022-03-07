@@ -27,6 +27,12 @@
         font: 18px;
         font-family: 'Raleway', sans-serif;
     }
+
+    .footer-texto p{
+        font: 18px;
+        font-family: 'Raleway', sans-serif;
+        color: #F5F5F7;
+    }
     
     p{
         font-size: 22px;
@@ -79,8 +85,14 @@
     
     .boton{
         display: flex;
-        width: 100%;
+        width: 50%;
         white-space: nowrap;
+    }
+    .botoncta{
+        display: flex;
+        width: 50%;
+        margin-top: 3%;
+        justify-content: center;
     }
     
     .btn_solicitademo{
@@ -252,6 +264,7 @@
     footer .contenedor-footer2{
         width: 50%;
         padding-left: 37%;
+        padding-top: 150px;
         display: flex;
     }
     
@@ -510,6 +523,7 @@
     
     .titulos{
         padding: 0% 5%;
+        width: 50%;
     }
     
     ul {
@@ -640,7 +654,7 @@
     .cards-landing .card-landing{
         background: white;
         display: flex;
-        width: 350px;
+        width: 100%;
         height: 120px;
         align-items: center;
         border-radius: 10px;
@@ -651,7 +665,7 @@
 
         position: relative;
         padding-left: 20px;
-        width: 80%;
+        width:100%;
         text-align: left;
     }
     
@@ -883,6 +897,7 @@
         display: block;
     }
     .pasoseccion2{
+        margin-top: -50;
         display: flex;
         width: 100%;
         margin-top: 5%;
@@ -894,20 +909,20 @@
     }
     
     .pasosnumerados-1{
-        width: 100%;
+        width: 90%;
         margin: 0% 5%;
         padding-top: 10%;
         text-align: left;
     }
     
     .pasosnumerados-2{
-        width: 100%;
+        width: 90%;
         margin: 0% 5%;
         text-align: left;
     }
     
     .pasosnumerados-3{
-        width: 100%;
+        width: 90%;
         margin: 0% 5%;
         padding-top: 0%;
         text-align: left;
@@ -961,7 +976,11 @@
     }
     
     .interlineadoli{
+
+        margin-top: 3%;
         margin-bottom: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
         width: 100%;
     }
     
