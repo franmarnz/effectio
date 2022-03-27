@@ -91,8 +91,7 @@
     .botoncta{
         display: flex;
         width: 50%;
-        margin-top: 3%;
-        justify-content: center;
+        justify-content: left;
     }
     
     .btn_solicitademo{
@@ -110,7 +109,49 @@
         padding-top: 12px;
         text-decoration: none;
     }
+
+    .btn_solicitademoForm{
+        margin-left: 0%;
+        border-radius: 10px;
+        width: 240px;
+        height: 30px;
+        background-color: #8CC04B;
+        color: white;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        border: none;
+        text-align: center;
+        padding-top: 0px;
+        text-decoration: none;
+    }
     
+    .campoFormulario{
+        font-family: 'Raleway', sans-serif;
+        color: #001D3D;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .campoFormulario .campos{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        padding-left: 10px;
+        border-radius: 10px;
+        border:none;
+        width: 300px;
+        height: 30px;
+        
+    }
+    
+    .campoFormulario .mensaje{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        padding-left: 10px;
+        border-radius: 10px;
+        border:none;
+        width: 300px;
+        height: 60px;
+    }
     
     .cards{
         display: flex;
