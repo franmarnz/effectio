@@ -142,7 +142,29 @@
                     reportes para la eficiencia energética de tu<br>compañía</p>
                 </div>
                 <div class="botoncta">
-                    <a href="https://wa.me/525510821848/?text=Buen%20día.%20Me%20gustaría%20solicitar%20una%20demo%20de%20su%20software%20" class="btn_solicitademo">Solicita una demo</a>
+                    <form action="enviar.php" method="post">
+                        <div class="campoFormulario">
+                        <label for="name">Nombre:</label>
+                        <br>
+                        <input type="text" name="name" id="name" class="campos" placeholder="Nombre">
+                        </div>
+                        <div class="campoFormulario">
+                        <label for="mail">Correo electrónico:</label>
+                        <br>
+                        <input type="text" name="mail" id="mail" class="campos" placeholder="Correo electrónico">
+                        </div>
+                        <div class="campoFormulario">
+                        <label for="phone">Número telefónico:</label>
+                        <br>
+                        <input type="text" name="phone" id="subject" class="campos" placeholder="Número telefónico">
+                        </div>
+                        <div class="campoFormulario">
+                        <label for="message">Mensaje:</label>
+                        <br>
+                        <textarea name="message" class="mensaje" placeholder="Mensaje ... " id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn_solicitademoForm">Contáctanos</button>
+                    </form>
                 </div>
             </div>
         </section>
